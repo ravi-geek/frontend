@@ -1,1 +1,9 @@
-<p>dashboard works!</p>
+<div class="container">
+  <button mat-raised-button color="primary" [routerLink]="['courses']" routerLinkActive="router-link-active">
+    Courses
+  </button>
+  <button mat-raised-button color="primary" [routerLink]="['books']" routerLinkActive="router-link-active" >
+    Books
+  </button>
+</div>
+<router-outlet></router-outlet>

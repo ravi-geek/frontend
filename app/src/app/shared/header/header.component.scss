@@ -19,10 +19,12 @@ header {
 .title {
   justify-content: flex-start;
   margin-left: 1.5rem;
+  cursor: pointer;
 }
 
 .contact-us {
   justify-content: flex-end;
   margin-right: 1.5rem;
   font-size: 1rem !important;
+  cursor: pointer;
 }
